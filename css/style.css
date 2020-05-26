@@ -1,0 +1,79 @@
+header{
+    background-color: rgb(71, 71, 71);
+    color: blanchedalmond;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+header nav{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    /* border: hotpink solid 2px; */
+
+}
+header nav img{
+    float: left;
+    margin:  15px auto;
+
+}
+header nav ul li{
+    margin: 15px auto ;
+    float: left;
+    padding: 27px 47.5px ;
+    text-align: center;
+    /* vertical-align: middle; */
+}
+header nav ul li a{
+    text-decoration: none;
+    color: lavender;
+    
+}
+/* -------body------- */
+main section img{
+    margin: 15px;
+}
+section{
+    width:max-content;
+    margin: 15px auto;
+}
+
+
+
+section div{
+    float: right;
+    width: 480px;
+    height: 400px;
+    margin: 15px;
+    /* border: rgb(60, 60, 172) solid 2px; */
+}
+section div h4{
+    margin: 15px auto;
+    font-size: x-large;
+    font-weight: bold;
+    height: 10%;
+}
+section div p{
+    overflow: scroll;
+    height: 60%;
+    
+} 
+section div p::-webkit-scrollbar{
+    display: none;
+}
+section div button{
+    background-color: black;
+    color: cornsilk;
+    height: 40px;
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+/* ------footer------------ */
+footer{
+    background-color: rgb(71, 71, 71);
+    height: 100px;
+
+}
